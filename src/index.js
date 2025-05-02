@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
 // import Card from './Card';
 // import Hello from './Hello.js';
-import App from './App.js';
+import App from "./App.js";
 
-import * as serviceWorker from './serviceWorker';
-import 'tachyons';
+import * as serviceWorker from "./serviceWorker";
+import "tachyons";
 // import {robots} from './robots';
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
 serviceWorker.unregister();
 
 // If you want your app to work offline and load faster, you can change
